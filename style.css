@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&display=swap');
+:root{
+    --font: IBM Plex Sans;
+}
+body{  
+    background: linear-gradient(119.02deg, #E7DCFF -0.35%, rgba(255, 234, 203, 0.869792) 57.14%, #F6F1FF 100%);
+}
+
+  .rectangle {
+    width: 486px;
+    height: 458px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FEFEFF;
+    box-shadow: 0px 43px 50px -25px rgba(34, 0, 111, 0.17);
+    border-radius: 2.5rem;
+  }
+  .profilePicture{
+      margin:2rem 11rem 0rem 11rem;
+      
+  }
+
+  .heading{
+      text-align: center;
+      font-family: var(--font);
+  }
+  .subHeading{
+      text-align: center;
+      font-family: var(--font);
+  }
+
+  .follow{
+    width: 10rem;
+    height: 3rem;
+    margin:0rem 2rem 0rem 4rem;
+    border-style: none;
+    border-radius: 35px;
+    background: linear-gradient(90.41deg, #FA3967 0.35%, #FA9639 98.37%);
+  }
+  .followImg{
+      
+      height: 40%;
+  }
+  .send-message{
+    width: 10rem;
+    height: 3rem;
+    margin:0rem 1rem 0rem 0rem;
+    border-style: none;
+    border-radius: 35px;
+    background: #FFEDD2;
+  }
+  .headingContainer{
+      margin-left: 9rem;
+      width: 12rem;
+  }
